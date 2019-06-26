@@ -57,3 +57,44 @@ a:hover {
   color: #eda087;
   transition: color .25s ease-in-out;
 }
+
+/*=========================
+
+
+		HEADER STYLES
+
+=========================*/
+
+.cover {
+	background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-cover.jpg') no-repeat 77% center/cover;
+	display: table;
+	height: 100vh;
+	width: 100vw;
+	text-align: center;
+	color: hsla(0,0%,100%,.9);
+}
+
+.main-wrapper {
+	display: flex;
+	justify-content: center;
+	padding: 35vh;
+	align-items: center;
+}
+
+.main-text{
+	font-size: 2.22rem;
+	color: hsla(0,0%,100%,.9);
+}
+
+.tagline {
+	font-size: 1.4rem;
+	padding: 1.5rem;
+	border-bottom: 1px solid;
+}
+
+.date {
+	font-size: 1.25rem;
+	letter-spacing: .25rem;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
